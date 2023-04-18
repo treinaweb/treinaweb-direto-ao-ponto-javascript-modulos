@@ -10,6 +10,8 @@ import raizQuadrada,
     divisao
 } from './calculador.js';
 
+
+
 const a = 10;
 const b = 5;
 
@@ -19,4 +21,13 @@ console.log(`Multiplicação: ${a} * ${b} = ${multiplicacao(a, b)}`);
 console.log(`Divisão: ${a} / ${b} = ${divisao(a, b)}`);
 
 console.log(raizQuadrada(5));
+
+async function carregarMensagem() {
+    const { mostrarMensagem } = await import("./modulo_dinamico.js");
+    mostrarMensagem();
+}
+
+setInterval(() => {
+    carregarMensagem();
+}, 2000);
 
