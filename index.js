@@ -1,4 +1,4 @@
-import { adicao, subtracao, multiplicacao, divisao } from './calculadora.mjs';
+import { adicao, subtracao, multiplicacao, divisao } from './calculadora.js';
 
 const a = 10;
 const b = 5;
