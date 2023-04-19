@@ -8,7 +8,7 @@ import raizQuadrada,
     subtracao,
     multiplicacao,
     divisao
-} from './calculador.js';
+} from './calculadora.js';
 
 
 
